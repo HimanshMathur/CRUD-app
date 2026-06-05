@@ -129,9 +129,8 @@ const Home = () => {
         <div className="w-full flex flex-col gap-3">
           <label htmlFor="">Selling Price</label>
           <input
-            type="number"
             placeholder = "Selling Price"
-            className="w-full border border-black-100 rounded-sm outline-1 outline-gray-500 h-8 px-2 no-spinner"
+            className="w-full border border-black-100 rounded-sm outline-1 outline-gray-500 h-8 px-2"
             name="sellingPrice"
             value={bookForm.sellingPrice}
             onChange={handleFormChange}
